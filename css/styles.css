@@ -148,7 +148,7 @@ p {
     padding: 5% 15%;
 }
 
-.footer-note {
+.cta-note {
     font-family: 'Montserrat';
     font-size: 3.5rem;
     line-height: 1.5;
@@ -156,7 +156,7 @@ p {
     color: #fff;
 }
 
-.footer-download-button {
+.cta-download-button {
     margin: 5% 3% 5% 0;
     font-family: "Montserrat";
     font-size: 1.2rem;
@@ -207,11 +207,14 @@ p {
     }
 
     #pricing {
-        padding: 3%;
+        padding: 10%;
     }
 
+    #cta {
+        padding: 2% 15%;
+    }
 
-    .footer-note {
+    .cta-note {
         font-size: 2.5rem;
     }
 }
