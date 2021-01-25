@@ -179,13 +179,18 @@ p {
 /* media query */
 
 @media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
     .title-image {
         position: static;
         transform: rotate(0);
     }
 
-    #pricing {
-        text-align: left;
+    .container-fluid {
+        padding: 3% 5% 7%;
     }
 
     h1 {
@@ -195,6 +200,16 @@ p {
     h2 {
         font-size:2rem;
     }
+
+    .press-logo {
+        width: 15%;
+        margin: 20px 15px 50px;
+    }
+
+    #pricing {
+        padding: 3%;
+    }
+
 
     .footer-note {
         font-size: 2.5rem;
