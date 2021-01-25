@@ -179,12 +179,13 @@ p {
 /* media query */
 
 @media (max-width: 1028px) {
-    #title {
-        text-align: center;
-    }
     .title-image {
         position: static;
         transform: rotate(0);
+    }
+
+    #pricing {
+        text-align: left;
     }
 
     h1 {
